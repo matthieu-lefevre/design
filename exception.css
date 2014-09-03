@@ -1,0 +1,22 @@
+#exception {
+    display: none;
+    position: relative;
+}
+
+#exception .exception-message {
+    color: #ff0000;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 0 30px 0;
+    overflow-x: auto;
+}
+
+#exception .exception-stack {
+    position: absolute;
+    bottom: 10px;
+    font-size: 11px;
+    height: 150px;
+    width: 650px;
+    margin: 0 auto;
+    overflow: scroll;
+}
