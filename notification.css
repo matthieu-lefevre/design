@@ -1,0 +1,23 @@
+.message {
+    width: 250px;
+    height: 35px;
+    display: none;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 15;
+    top: 20px;
+    left: 40%;
+    line-height: 35px;
+    padding: 0;
+    text-align: center;
+}
+.success {
+    background-color: #90EE90;
+    border: 2px #090 solid;
+    color: #333;
+}
+.failure {
+    background-color: #f66;
+    border: 2px #f33 solid;
+    color: #fff;
+}
